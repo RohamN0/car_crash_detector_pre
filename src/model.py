@@ -10,10 +10,10 @@ class VideoPipeline:
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
 
         self.frame_interval = 6
-        self.video_matrix_output_dir = './videos/video_matrices'
-        self.mask_matrix_output_dir = './videos/masked_video_matrices'
+        self.video_matrix_output_dir = '../videos/video_matrices'
+        self.mask_matrix_output_dir = '../videos/masked_video_matrices'
 
-        self.df = pd.read_csv('./data/train.csv')
+        self.df = pd.read_csv('../data/train.csv')
 
         self.id = video_path.split('/')[-1].replace('.mp4', '')
         

@@ -12,7 +12,7 @@ def preprocess_resnet(x):
 def load_model():
     return keras.models.load_model(
         # You can use any car crash detection model here
-        './modele.keras',
+        '../modele.keras',
         custom_objects={
             'preprocess_resnet': preprocess_resnet
         }
