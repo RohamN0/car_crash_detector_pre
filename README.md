@@ -59,3 +59,7 @@ Generates: - Motion magnitude\
 ### 4) Model Prediction
 
 Outputs: - 🚨 **CRASH** - ✅ **SAFE**
+
+## 📜 License
+
+MIT License
